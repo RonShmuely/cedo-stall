@@ -11,7 +11,7 @@
 <link rel="icon" href="data:image/webp;base64,UklGRvIBAABXRUJQVlA4IOYBAADwCgCdASpgAGAAPm00lkikIqIhJzYISIANiWkA1eaAXvbeAyag0GGCmb+PIwElSItlKgbhJ5IWwnv8K+AeqiW5+JQGVhE/zIeW4lKRBdZBkx25oMIv0SCpeEov/PRETQAA/u9RL+tlVin/6+AKeS7NhNHIAGn1mS20jd6qPg1X4tJhU6Wlr48cuZd/QsK8PlrtaaBYS/Ks83Qe2ANX6eakJyhHjKa8WwiZJKs9pjzcdZDVLRS2HmDTlRWhwJn4OUvlMEPAd2aGM22x9wb25fuT/J/8LHdk7S2fp4wKxuydccS7jFilfyru1w4jRwWzEwlKsS/VvdhhbCmFbjyvCJEuk8bDY00i4WrKsf5JrQI+LoSvqDkFch/rokULs7dwAef6omX+3jpTqz250M5g8kLW+5Y9lAR0olh5T5rkiH7fpAMBGkJrmxQ3pbT4brG23jiJzhdjdqYx027MmVtfPS57N16/tK1S83kwWqTBsYrKXg8Wo3PMNmTyCCOVYB+usxbxFDfD3ZBqHm52bRldx19TgTyuigqWMOvAI29BlpYl7n2uqDNd5B6b2wY4uleXH93fS6xgEUbY8g2IMxREzunnW38F8MzJodW+hh9p36iRTpp1gu9w4x/50+gbBrDiEI6AAAAAAAA=">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Frank+Ruhl+Libre:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#eef4ec; --card:#ffffff; --mint:#e3f0e0; --ink:#1c2b1e; --muted:#5b6b5d;
@@ -20,9 +20,9 @@
   }
   *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
   html{-webkit-text-size-adjust:100%}
-  body{font-family:"Cormorant Garamond","Frank Ruhl Libre",serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:18px}
+  body{font-family:Rubik,"Noto Sans Hebrew",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:17px}
   .wrap{max-width:560px;margin:0 auto;padding:0 20px}
-  h1,h2,h3{font-family:"Cormorant Garamond","Frank Ruhl Libre",serif;line-height:1.2}
+  h1,h2,h3{font-family:Rubik,"Noto Sans Hebrew",Arial,sans-serif;line-height:1.2}
 
   header{padding:22px 0 0;display:flex;align-items:center;justify-content:space-between}
   .brand{display:flex;align-items:center;gap:10px}
@@ -31,7 +31,7 @@
   .chip{font-size:13px;font-weight:500;color:var(--green);background:var(--mint);border:1px solid var(--line);padding:4px 12px;border-radius:999px}
 
   .hero{padding:34px 0 8px}
-  .hero h1{font-size:42px;font-weight:900;color:var(--green);letter-spacing:0}
+  .hero h1{font-size:38px;font-weight:800;color:var(--green);letter-spacing:0}
   .hero p{margin-top:12px;font-size:19px;color:var(--muted)}
 
   .cta{display:grid;gap:12px;margin:26px 0 8px}
@@ -80,6 +80,7 @@
   .why div{background:var(--mint);border-radius:20px;padding:16px}
   .why h3{font-size:18px;color:var(--green)}
   .why p{font-size:14px;color:var(--muted);margin-top:4px}
+  .why div:nth-child(3){grid-column:1/-1}
   .why .new{grid-column:1/-1;background:var(--card);border:1.5px solid var(--green-2)}
   .tag{display:inline-block;font-size:12px;font-weight:700;color:#fff;background:var(--green);border-radius:999px;padding:1px 10px;margin-bottom:6px}
 
@@ -127,7 +128,7 @@
     <h2>איך זה עובד</h2>
     <ol class="steps">
       <li><img src="data:image/webp;base64,UklGRkQDAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSPQCAAABv6KgbSPnRviDvv2PICLIBigKszuEH7pOGyc+LABk29q2tNGLFEiI/PE/aTzjM1SjdXcn4b3/a+GDytEcRvR/AvB/0F3v95ta63rB/BqZJZNX/7wvYF5GdaVUWevuz2c+Zz5vwDZ6+/v7l/fX38yA58ZnZVdjZKKLmxeSrBgnbH+Ap5TKG5KxHzrYujAA4I4aeYbOexr3jF86wpAaa1ET8UdqIODESNfg3bCa9dTtrNEeTp4ZAHX+1NVSc5cxNyTvL7f7ZUu6/w1xQPLtatwyAD+kvPQAFJ8oRvvNNcBhS6px0nAhm5X2z/nBwW8fop2pdLaeSC7zKLEgGVsRIy19cKZ3yxO0uSYBVvkx/BSgSSJ4Q9opnTSmr5Ty0ikSZyep/jKXYOjjiPHHd602pVYAoE8lead8HlUyBtw1+NvZNFn2pJ25UBWcW45MAK1+3Yb3/OymqFJLFyeCFnbYBxoz4+cTVz+s7HIsNcg2S1L4kMbnnYEBuwD8ORdGm76g+fSdWcFmbCAN2EGZXQDff2V22LBWA6HNhzFtIS8E0gV9nN8ZACo8VRzjaC70eXRBiCpdRDvLHuJP9HiD4EH4zb3XhHoql0SdTeE5ULzAXNpkwFBqCL/ZB+CRqHBLWDcDBni+Eg74nQ+S4gWAvgDStULWY6iR5SK3hBv2uEzaS3PDGlrkfk+3Nsg5AjaFZ2pS8vgXwFD6yzGwvqJ44WSj0BLIMmkndAAEkiKLgNM7eXjYWzeNY/YR90j/gb7gspIGR1y2TST+4qstFEn7jFUBmzaAg4T8knz9U3UAFLbJCsQ6Q+ywK4kH1AK8KePRPclIQ+7yAn2O0xj3rEmAP7qhOPeRGHAHFYZGQqF/ychNAmAX6rrmIOUZh7BWLEu/SEZtfKYVsQaMORN8Mlr0ta6orPsuy8sp3RnNSAdQZAeAu8H0j/cpl0w5BYC/5PXhM8lN2J6XVyXd7A+C4ODg6CH55uBgKxj1a0bMHDP+0jfwZQvdXj2H/5VWUDggKgAAADADAJ0BKjAAMAA+USiRRiOioaEjiABwCglpAAAbgb0+DgAA/vz4QAAAAA==" alt=""><div><h3>מצלמים ומעלים</h3><p>תמונה, שם, וזהו. לוקח כמה שניות.</p></div></li>
-      <li><img src="data:image/webp;base64,UklGRuADAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSI8DAAABv4KgbdvMT/kDP4KIyNuHJEmyZEuS5JEkaZsGita2OWmtb8BeRwMG1DTTe+/tqKkGtxE4893/tTAM7n0FEf2fABj3p4y2bSxQ5LBQccHkeymTc6c47S1ii9/Scmeclc0qL9SuZiuouASg+MlP26Qbk9fN0hZVKVOHR0hWI16liWPyqwEAz1zNtMaeBstkV2c/kUcWkn0+ZupwoMMlo2Ki8EnVg77JaaaC+ha6/JxXAAqfVC5SqwwzYYu7OvhkG5UZoxbSOxxnEzdc0WHM7+qMUROG1xxkg33LQ1vTIhWjJgw7jEsZLPcqKog19e0k8EhGTRj6in0Yy8OIQQ9A9Z7vazVLuGraQGpx9ZNch3ssdcX1H3LiCWhrewHJaLDuynKp3urtfpLqtgmUL9XIA8SxIieegGm+Ubf3Jkz9c+7noS3uqQM0yIknsEi7Lh1X1mwY2nafwiWray1h1pCJ7KI733FYlmT5Vs0Pm2m5Q64Y5eKLZsJ5Vwc5SSlJIN8bcjqoJZrTqA1z+cxTqzXiYx2QdEsJANWtOb838j01rSDzKreCLwdIeBZ/NYDVuTm64LiFrPLiv+uwKpCC3yAFgM/rN063awbW8oj86rIEbZseno2uWdxRJL/XGgJAeTAjZ33LZVvn0cOB0TgCCv1XkgyvBk8kZ30LkPQ1S3O20QtN5gGS5Y0JtUNPAECN6wDsQ/LeQj3u2mnUAaiszsL1MvQlbgHyhyElIIYMtyvZgGCK9BJP7F3Fk1oCOzcbM476xcSjScx8msWTF04kSlwCcL4Bq/NIPvXzRoKUaeD5/xsWUKIH4HEdACpbM15zaACyrRG9sMtHCwBqmg8NIFyXwfKxY+lCthJLn2RPPSIpNYGnA8DgiIxOHQvAKyXQeCB5YgVpLoDIJAiEcx2T0emyvUdZvSL52gCC1xQJgGYAcv4jyfiHI5KTDgAEgWZ5QQCKqx9MTjyB5KPOZxnA70kuG4DaxsdNR0Cvc8I/AsAO4+1CCg0y3gZAbp/KQ7I9ZryZS4zNzuoGJzGcKb/rSHXGDDcLwKNZ3DOhRx7ZMHXGjPfLZmXuGazzerqErM6Q4bMykRymLD3sRJU8FiivX4N2N5fSYajJn5JuCQvu7owZHzc0bTLhh1QD/EVnRnLkW0AtUXshx3X8VeF9kJwPSoiY21dU6wJ/vXVNkndzzsnXCv7J8s6cyXkX/6zl3qh4kMMCAQBWUDggKgAAADADAJ0BKjAAMAA+USiRRiOioaEjiABwCglpAAAbgb0+DgAA/vz4QAAAAA==" alt=""><div><h3>מגלים חפצים באזור</h3><p>מחליקים על מה שמוסרים סביבכם ושומרים את מה שמתאים.</p></div></li>
+      <li><img src="data:image/webp;base64,UklGRuADAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSI8DAAABv4KgbdvMT/kDP4KIyNuHJEmyZEuS5JEkaZsGita2OWmtb8BeRwMG1DTTe+/tqKkGtxE4893/tTAM7n0FEf2fABj3p4y2bSxQ5LBQccHkeymTc6c47S1ii9/Scmeclc0qL9SuZiuouASg+MlP26Qbk9fN0hZVKVOHR0hWI16liWPyqwEAz1zNtMaeBstkV2c/kUcWkn0+ZupwoMMlo2Ki8EnVg77JaaaC+ha6/JxXAAqfVC5SqwwzYYu7OvhkG5UZoxbSOxxnEzdc0WHM7+qMUROG1xxkg33LQ1vTIhWjJgw7jEsZLPcqKog19e0k8EhGTRj6in0Yy8OIQQ9A9Z7vazVLuGraQGpx9ZNch3ssdcX1H3LiCWhrewHJaLDuynKp3urtfpLqtgmUL9XIA8SxIieegGm+Ubf3Jkz9c+7noS3uqQM0yIknsEi7Lh1X1mwY2nafwiWray1h1pCJ7KI733FYlmT5Vs0Pm2m5Q64Y5eKLZsJ5Vwc5SSlJIN8bcjqoJZrTqA1z+cxTqzXiYx2QdEsJANWtOb838j01rSDzKreCLwdIeBZ/NYDVuTm64LiFrPLiv+uwKpCC3yAFgM/rN063awbW8oj86rIEbZseno2uWdxRJL/XGgJAeTAjZ33LZVvn0cOB0TgCCv1XkgyvBk8kZ30LkPQ1S3O20QtN5gGS5Y0JtUNPAECN6wDsQ/LeQj3u2mnUAaiszsL1MvQlbgHyhyElIIYMtyvZgGCK9BJP7F3Fk1oCOzcbM476xcSjScx8msWTF04kSlwCcL4Bq/NIPvXzRoKUaeD5/xsWUKIH4HEdACpbM15zaACyrRG9sMtHCwBqmg8NIFyXwfKxY+lCthJLn2RPPSIpNYGnA8DgiIxOHQvAKyXQeCB5YgVpLoDIJAiEcx2T0emyvUdZvSL52gCC1xQJgGYAcv4jyfiHI5KTDgAEgWZ5QQCKqx9MTjyB5KPOZxnA70kuG4DaxsdNR0Cvc8I/AsAO4+1CCg0y3gZAbp/KQ7I9ZryZS4zNzuoGJzGcKb/rSHXGDDcLwKNZ3DOhRx7ZMHXGjPfLZmXuGazzerqErM6Q4bMykRymLD3sRJU8FiivX4N2N5fSYajJn5JuCQvu7owZHzc0bTLhh1QD/EVnRnLkW0AtUXshx3X8VeF9kJwPSoiY21dU6wJ/vXVNkndzzsnXCv7J8s6cyXkX/6zl3qh4kMMCAQBWUDggKgAAADADAJ0BKjAAMAA+USiRRiOioaEjiABwCglpAAAbgb0+DgAA/vz4QAAAAA==" alt=""><div><h3>מחליקים ותופסים</h3><p>מחליקים ימינה ותופסים, והחפץ נשמר לכם לשעה עד לתיאום.</p></div></li>
       <li><img src="data:image/webp;base64,UklGRvQCAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSKMCAAABr2IgbZuXzL/wK4iIvD1ImiRNkjRJkiTLtkGCbdtq21x9KTIzs+IwM8vckOLaEdz5D+Z/GdQOIKL/E4B/XUu3jp4+XJJ0/zwc1OJbKl4uufb8oKBtSrTnJP3RSbeWz8ST+UKzf/9Lkk7H2EhtQS6PCwJrJtoDkm5PrBV7I9/rAhuN9V3yI7tG0eWyoWHjhuUxaK3UDHi7g63GbXJvhXIQtLBt7ZjshCQ8VhHBQ7Kg0Ia0EMlbzg2pzpEWDcPhIQCxCJKIaJl+DKjxDJEd0AIGTGzLFFI5AVTpwKSNNXVDFX8Jee0CsII8IDwmq2yuoS+8giJPobJt4IAdALhn65gpQK+eTx1neNfLIEcuDanEVIgvDvgIuc2bZx+49ql2D9Eh2ZPqLIfwhUtTUeBsPgP2L86sexZSAsA9Z1wIRSeMrEAZp8dbKHeZhLxkZsK64kx1Rc7LKpC8UF2wKhn8ixwHioGqQ5KnIuw4rC5leQbcMwGUOVdVOLgIODZDLtao87BrXbAH5ElVgjYSj/wwAYO/3u0afSqnQDwMrg2gsvwQSHI2+FRZrEq3zu3APj5mHCZp9c/PL4HBIwDE+hoqvNqlrigzL436AGB4VeCbpPu6CzRakrzPZo5VRZwZ6bsoISWAnXIlhXW/GMfPjQIpyDvYaoY20PVNRSTvWQEMtx+ZNGcA0AnSEdGnzEt4dsxoXHIfSv1jrEfhgK+aCub7R2xr2ikHOsL1e7e8pfiQjzpWbnsP6S2IrhdYGtY0D/1pd0M7nQUnGWxQf7Y3IUrXPidlbHa+r9BFiFnqPfh0TzLYcJZNqbgMnLe3t6FD0p/18wIbt1gE0A4GNUvZqKQ0bHXEJLRTDnREVPgUiTHfdUQ1R+/A54eJyNZJ8tFAdOM//qCK/zAAVlA4ICoAAAAwAwCdASowADAAPlEokUYjoqGhI4gAcAoJaQAAG4G9Pg4AAP78+EAAAAA=" alt=""><div><h3>מתאמים בצ'אט</h3><p>צ'אט מובנה לתיאום איסוף, בלי לחשוף מספר.</p></div></li>
       <li><img src="data:image/webp;base64,UklGRtACAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSH8CAAABn4Kgbdsscs8f9xlERN6+tUmTpE2eJMmSJNk2SLBt7UmrCzZEUOwVJc2a3nsv+ngGwp3/aPwhHxlBRP8nAH8y35ncfv34X6uggD9YHL0yoZFe9ZJk9DDuOhXH5wJpV+7J9aKmY7PCIJtS9pB8aumIHXOKdM0vvlSR9IVOOnYQjTQk/qGeStEPHSQ3+I409eewArWhcniWypB1KPPnUU7R5jhZznIcI4l/AKXp+1UoXfbj9M5lwM3wdlRS2CwrTH9tQj1mLaa+Ivl5uut5s6uAtxUADWobeT9yEHvBgmqL9N0CYsuzyAXqBAD9mUPEr76hrJBnGSQuWkCRRQBTPmhxBo9UNlmC4N0hUGVUQrzLlgpPfM4oJoNigqJ/nHvjGPHam6/FWCFnitGaj40YGEdjBlYhrsc+4tuktYHMdsR7UwXtg97UL6sq4YOWABc8UQDWG8Omqs4wq51Gu2XDqO1FH3kkLUW0VcjeMWoqTjgG4K5JMhhnkXzGe00F7ZShBUALaQKAZjmOqeG32RUnMcjc8VEDbD4gTTvktaXQB4MVO0Cfw1Rgv5O3eyPvOAhbVT4CuzTTgd57iEgudwvAGQs4CJB+xrTz2LTZxMHNH0h6VMVoaFTqndHe/v7+/vk8K6UZdrXj7uxf3n/9MPlIphsy6fdy+XBzcXAw8zzvgDcy7oNlKLP4rcOlTC2AtMMHmTwtqRavZBAMpHqcCT2cSu1yIHS0krqiJbTNnFAQQLjDhozJMymH2zId9qQMnsmMaUppXMmcBRD/z5zI3ZPcHasiyxO5BV2Rnx05l0cSRdblGvyQ6IUZOYex66+kOx3I6yfLpYLkv+XdzdGB53XySA4AVlA4ICoAAAAwAwCdASowADAAPlEokUYjoqGhI4gAcAoJaQAAG4G9Pg4AAP78+EAAAAA=" alt=""><div><h3>החפץ ממשיך הלאה</h3><p>לבית חדש, במקום לפח.</p></div></li>
     </ol>
@@ -136,7 +137,6 @@
   <section>
     <h2>למה צ'דו</h2>
     <div class="why">
-      <div><h3>בחינם</h3><p>בלי עמלות ובלי מחיר. נותנים ומקבלים.</p></div>
       <div><h3>טוב לסביבה</h3><p>כל חפץ שנמסר הוא פחות פסולת.</p></div>
       <div><h3>קהילה</h3><p>שכנים עוזרים לשכנים.</p></div>
       <div><h3>רואים השפעה</h3><p>כמה מסרתם וכמה ק"ג חסכתם.</p></div>
